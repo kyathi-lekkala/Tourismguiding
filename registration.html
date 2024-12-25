@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Registration - Explore the World</title>
+    <style>
+        body {
+            font-family: 'EB Garamond', serif;
+            font-size: 10px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #ECF0F1;
+            margin-top: 5px;
+        }
+
+        .card {
+            background-color:  #1A5276;
+            border-radius: 20px;
+            padding: 15px;
+            width: 320px;
+            margin-top:5px;
+            
+            
+        }
+
+        label {
+            font-size: 16px;
+            color: #ECF0F1;
+            text-align: left;
+            display: block;
+            margin-top: 8px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            border:  #BDC3C7;
+            border-radius: 4px;
+            background-color: #5D6D7E;
+            color: white;
+        }
+
+        input[type="submit"] {
+            background-color: #1A5276;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            margin-top: 8px;
+           
+        }
+
+        input[type="submit"] {
+            background-color: #34495E;
+            border:solid;
+        }
+
+        p {
+            font-size: 14px;
+            margin-top: 5px;
+            color: #BDC3C7;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Create Your Account</h1>
+        <form action="/register" method="post">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required><br>
+
+            <input type="submit" value="Register">
+        </form>
+
+        <p>Already have an account? <a href="login.html" target="content">Login here</a>.</p>
+    </div>
+</body>
+</html>

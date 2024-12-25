@@ -1,0 +1,137 @@
+<html>
+<head>
+    <title>Travel & Tourism Website</title>
+    <style>
+        body {
+            font-family: 'EB Garamond', serif;
+            font-size: 20px;
+            color: #ffffff; 
+            background-color: #2C3E50; 
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #1A5276; 
+            padding: 5px;
+        }
+
+        .logo {
+            width: 15%;
+        }
+
+        .logo img {
+            display: block;
+            width: 100%; 
+            margin: 0;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 5px;
+            flex-grow: 1; 
+            background-color: #34495E;
+        }
+
+        .navigation {
+            background-color: #34495E;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px ;
+        }
+
+        .navigation a {
+            font-size: 18px;
+            color: #ECF0F1;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #5D6D7E;
+        }
+
+        .content {
+            display: flex;
+            padding: 5px;
+            
+        }
+
+        .services {
+            background-color: #34495E;
+            width: 20%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap:18px;
+        }
+
+        .services a {
+            color: #ECF0F1;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 5px;
+            display: block;
+            border-radius: 5px;
+            background-color: #5D6D7E;
+            text-align: center;
+        }
+
+        .iframe-container {
+            flex-grow: 1;
+            background-color: #2C3E50;
+            padding: 5px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="https://img.freepik.com/free-vector/detailed-travel-logo_23-2148627268.jpg" alt="Travel Logo">
+            </div>
+            <h1>Explore the World - Your Travel & Tourism Guide</h1>
+        </div>
+        <div class="navigation">
+            <a href="home.html" target="content">Home</a>
+            <a href="login.html" target="content">Login</a>
+            <a href="registration.html" target="content">Registration</a>
+            <a href="catalogue.html" target="content">Catalogue</a>
+            <a href="cart.html" target="content">Cart</a>
+            <a href="contact.html" target="content">Contact Us</a>
+        </div>
+        <div class="content">
+            <div class="services">
+                <a href="service1.html" target="content">Travel Insurance</a>
+                <a href="service2.html" target="content">Car Rentals</a>
+                <a href="service3.html" target="content">Visa Assistance</a>
+                <a href="service4.html" target="content">Holiday Packages</a>
+                <a href="service5.html" target="content">Flight Booking</a>
+                <a href="service6.html" target="content">Hotel Reservations</a>
+                <a href="service7.html" target="content">Baggage Services</a>
+                <a href="service8.html" target="content">Online Check-In</a>
+                <a href="service9.html" target="content">Meal Options</a>
+                <a href="service10.html" target="content">Special Assistance Services</a>
+            </div>
+            <div class="iframe-container">
+                <iframe name="content">
+                    <p>Your content will load here.</p>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
